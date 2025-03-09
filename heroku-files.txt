@@ -1,0 +1,26 @@
+# requirements.txt
+flask==2.2.3
+gunicorn==20.1.0
+numpy==1.22.4
+opencv-python-headless==4.7.0.72
+tensorflow-cpu==2.11.0
+werkzeug==2.2.3
+
+# Procfile
+web: gunicorn app:app
+
+# runtime.txt
+python-3.9.16
+
+# .gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+uploads/
+*.h5
+.DS_Store
